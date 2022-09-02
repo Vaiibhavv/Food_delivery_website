@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bar {
+    display: flex;
+}
+#navbar
+{
+    position: fixed;
+}
+.navlist a
+{
+   text-decoration: none;
+   margin: 10px 20px ; 
+   color: whitesmoke;
+   font-family: 'Roboto Slab', serif;
+   padding: 0px;
+
+   
+}
+.navlist a:hover
+{
+    color: rgb(23, 19, 19);
+    
+}
+.navlist
+{
+    list-style-type: none;
+    margin: 8px ;
+}
+#navbar::before
+{
+   content: "";
+   /* background-color: rgb(99, 94, 94); */
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+
+}
+/* body {
+    background-image: url(background/food1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} */
+#home_section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 5px 166px;
+}
+ .primary_h
+{
+    font-size: 3.2rem;
+    font-family:'Roboto Slab', serif;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+#home_section::before
+{
+    content: "";
+    background: url(background/food1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home_section p{
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-align: center;
+} 
+.btn
+{
+    padding: 5px 7px;
+    color: black;
+    background-color: rgb(224, 224, 159);
+    border-radius: 6px;
+    border: 3px solid gray;
+    cursor: pointer;
+    margin: 8px;
+    font-family: 'Roboto Slab', serif;
+}
+.btn:hover
+{
+  
+    background-color:rgba(238, 104, 56, 0.987);
+    border:3px solid black;
+}
+/*services section */
+.primary_hservices
+{
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#services
+{
+    margin: 6px;
+    display: flex;
+}
+.box
+{
+   border: 2px solid red;
+   padding: 10px;
+   text-align: center;
+   margin: 10px;
+   border-radius: 5px;
+   background-color: rgb(225, 195, 195);
+   font-family: 'Roboto Slab', serif;
+}
+.box img
+{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+.secondary_h
+{
+    text-align: center;
+    font-kerning:'Roboto Slab', serif;
+    font-size: 1.3rem;
+}
+
+/* Client section */
+.primaryh_clients
+{
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#client-section
+{
+    
+    background-image: url(f.jpg);
+    z-index: -1;
+    width: 100vw;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}    
+.client-item img {
+    height: 11vh;
+    padding: 1em;}
+
+/* Contact-us section */
+
+
+#Contactus
+{
+    height: 320px;
+    background-image: url(background/food1.jpg);
+    z-index: -1;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+.primaryh_contact
+{
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#Contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* border-radius: 20px;
+   border: 3px solid black;
+   margin: 6px; */
+   margin-left: 9rem;
+   margin-right: 10rem;
+   
+}
+#Contact input
+{
+    display: block;
+    width: 13rem;
+    font-family: 'Roboto Slab', serif;
+}
+#Contact form
+{
+    height: 149px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.form-item
+{
+    padding: 6px;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    width: 100vw;
+}
